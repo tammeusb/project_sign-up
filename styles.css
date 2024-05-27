@@ -1,7 +1,5 @@
 :root {
-    --light: blanchedalmond;  
-
-    border: 2px solid black;
+    --light: blanchedalmond; 
 }
 
 .ibm-plex-serif-regular {
@@ -12,6 +10,7 @@
 
 body {
     background-color: var(--light);
+    margin: 0 auto;
 }
 
 .wrapper {
@@ -20,16 +19,25 @@ body {
 }
 
 .image-container {
-    flex: 1;
+    flex: 2;
+    overflow: hidden;
 }
 
 img {
     height: 100vh;
-    overflow: hidden;
 }
 
 .content-container {
-    flex: 4;
+    flex: 3;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+.content-container div:first-child {
+    margin-top: 10rem;
+}
+
+.content-container div:last-child {
+    margin-bottom: 10rem;
 }
