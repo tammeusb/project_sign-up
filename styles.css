@@ -1,0 +1,7 @@
+:root {
+    --light: blanchedalmond;
+}
+
+body {
+    background-color: var(--light);
+}
